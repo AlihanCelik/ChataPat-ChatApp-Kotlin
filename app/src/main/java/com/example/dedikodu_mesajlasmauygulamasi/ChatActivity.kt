@@ -7,15 +7,12 @@ import android.os.Bundle
 import android.os.Handler
 import android.text.Editable
 import android.text.TextWatcher
-import android.text.method.TextKeyListener
-import android.util.Log
+
 import android.view.View
-import android.widget.LinearLayout
-import android.widget.ProgressBar
-import android.widget.Toast
+
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.dedikodu_mesajlasmauygulamasi.Adapter.MessagesAdapter
-import com.example.dedikodu_mesajlasmauygulamasi.Adapter.chatUserAdapter
+
 import com.example.dedikodu_mesajlasmauygulamasi.databinding.ActivityChatBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
@@ -23,12 +20,9 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.storage.FirebaseStorage
-import com.google.gson.Gson
+
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.activity_chat.*
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
+
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap

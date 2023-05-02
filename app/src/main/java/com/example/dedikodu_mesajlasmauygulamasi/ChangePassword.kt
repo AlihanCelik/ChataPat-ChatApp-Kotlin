@@ -6,12 +6,12 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.example.dedikodu_mesajlasmauygulamasi.profile.profileActivity
-import com.google.firebase.auth.EmailAuthCredential
+
 import com.google.firebase.auth.EmailAuthProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_change_password.*
-import kotlinx.android.synthetic.main.activity_edit_profile.*
+
 import kotlinx.android.synthetic.main.activity_edit_profile.Save
 
 class ChangePassword : AppCompatActivity() {
