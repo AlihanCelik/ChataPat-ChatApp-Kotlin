@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "290824937750",
+    "firebase_url": "https://dedikodu-mesajlasmauygulamasi-default-rtdb.firebaseio.com",
+    "project_id": "dedikodu-mesajlasmauygulamasi",
+    "storage_bucket": "dedikodu-mesajlasmauygulamasi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290824937750:android:c7dfa6798b2f18fe56f037",
+        "android_client_info": {
+          "package_name": "com.example.dedikodu_mesajlasmauygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290824937750-9toiv57clop7h6uelpqfsvm51gcmgg1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJe1Aqoe9cq44HoQgZ9l343I7r2tcx5-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290824937750-9toiv57clop7h6uelpqfsvm51gcmgg1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

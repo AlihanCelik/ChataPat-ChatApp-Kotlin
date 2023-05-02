@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".alluser.AllUserActivity"
+    >
+    <LinearLayout
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:background="#007aff">
+        <ImageView
+            android:id="@+id/BackButton"
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:background="@drawable/ic_back"
+            android:layout_gravity="center"
+            android:layout_marginStart="10sp"
+            android:onClick="BackClick"></ImageView>
+        <TextView
+            android:id="@+id/img_logOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Notification"
+            android:fontFamily="@font/spartan_bold"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginStart="20sp"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/NotiRcyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginTop="2dp"
+        tools:listitem="@layout/item_notification_raw">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

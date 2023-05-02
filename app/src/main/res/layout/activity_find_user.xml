@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".alluser.findUserActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/findtoolBar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/findFriends"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="7dp"
+
+            android:layout_gravity="center"
+            android:background="@drawable/editext2_shape"
+            android:fontFamily="@font/spartan_regular"
+            android:hint="You can find your friend here"
+            android:textColorHint="@color/black"
+            android:padding="10sp"
+            android:textColor="@color/black"></EditText>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/finduser"
+            android:onClick="findFrends"></ImageView>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allUserRcyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/findtoolBar"
+        android:layout_marginTop="2dp"
+        tools:listitem="@layout/item_alluser_row"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
