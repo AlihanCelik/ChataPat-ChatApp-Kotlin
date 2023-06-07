@@ -1,4 +1,5 @@
 # ChataPat-ChatApp-Kotlin
+
 # About The Project
 
 ChataPat is an application where you can make friends and chat with people. It was developed with Kotlin language.
